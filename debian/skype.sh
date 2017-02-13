@@ -5,5 +5,11 @@ if [ ! -f skypeforlinux-64-alpha.deb ]; then
     wget https://repo.skype.com/latest/skypeforlinux-64-alpha.deb
 fi
 
-sudo gdebi skypeforlinux-64-alpha.deb
+
+
+if hash gdebi 2>/dev/null; then
+    sudo gdebi skypeforlinux-64-alpha.deb
+else
+    echo "gdebi not found, please install gdebi first " 
+fi
 

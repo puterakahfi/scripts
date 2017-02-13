@@ -42,6 +42,8 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
+Plug 'wakatime/wakatime'
+Plug 'wakatime/vim-wakatime'
 
 let g:make = 'gmake'
 if exists('make')
