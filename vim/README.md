@@ -9,7 +9,13 @@ sudo ln -sf generate.vim ~/.vimrc
 - execute command :
 vim +PlugInstall +qall
 
-- create shortcut to your home: 
 
  
+#tmux
 
+
+- copy to home directory 
+cp generate.vim ~/.tmux.conf
+
+- or create symnlink
+sudo ln -sf tmux.conf ~/.tmux.conf
