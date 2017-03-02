@@ -42,6 +42,7 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
+Plug 'flazz/vim-colorschemes'
 
 let g:make = 'gmake'
 if exists('make')
