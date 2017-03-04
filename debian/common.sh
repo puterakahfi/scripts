@@ -1,6 +1,5 @@
 #!/bin/bash
 
 
-# install gdebi
-
-sudo apt install -y gdebi
+# gdebi
+sudo apt install -y gdebi gnome-disk-utility
