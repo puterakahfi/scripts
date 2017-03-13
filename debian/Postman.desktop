@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Postman
+Comment= Postman API Management
+GenericName=postman
+Exec=Postman %U
+Icon=/usr/share/Postman/resources/app/assets/icon.png
+Type=Application
+StartupNotify=true
+Categories=Utility;
+
