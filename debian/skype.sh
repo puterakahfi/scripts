@@ -3,7 +3,7 @@ cd /tmp/
 if [ ! -f skypeforlinux-64-alpha.deb ]; then
     echo "file not founde, download from url..."
     #wget https://repo.skype.com/latest/skypeforlinux-64-alpha.deb
-    wget --output-document=skype.deb https://go.skype.com/skypeforlinux-64-alpha.deb
+    wget --output-document=skype.deb https://repo.skype.com/latest/skypeforlinux-64.deb
 fi
 
 
