@@ -3,6 +3,7 @@
 # INSTALL GITBOOK AND GITBOOK EDITOR
 
 # CONVERTER
+cd /tmp/
 sudo apt-get install -y wget python xz-utils libglu1-mesa
 sudo wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
 
@@ -24,6 +25,6 @@ if ! type "gdebi" > /dev/null; then
     # install foobar here
 fi
 sudo gdebi  gitbook-editor.deb
-mv gitbook-editor.deb ~/Downloads/
+sudo rm  gitbook-editor.deb 
 echo " \n gitbook editor successfully installed "
 

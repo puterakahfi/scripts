@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 
+cd /tmp/
 wget --output-document gitbook-editor.deb http://downloads.editor.gitbook.com/download/linux-64-bit
 if ! type "gdebi" > /dev/null; then
     sudo apt-get install -y  gdebi
